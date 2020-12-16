@@ -1,0 +1,44 @@
+body {
+  justify-content: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+#login {
+  padding: 3rem;
+  border-radius: 0.25rem;
+  border: 1px solid purple;
+  display: flex;
+  flex-direction: column;
+}
+
+#login > input:focus {
+  outline: 0;
+}
+
+#login > input {
+  border: none;
+  padding: 1rem;
+  border-radius: 0.35rem;
+  border: 1px solid blue;
+}
+
+#login > input {
+  margin-bottom: 10px;
+}
+
+#login > button {
+  background-color: transparent;
+  border: none;
+  color: aliceblue;
+  border: 1px solid slateblue;
+  padding: 0.45rem;
+  border-radius: 0.15rem;
+}
+
+h1 {
+  border-bottom: 2px solid seagreen;
+}
